@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dario Giuseppe Anzalone — Full Stack Developer</title>
+<meta name="description" content="Dario Giuseppe Anzalone — Full Stack Developer specializing in Java, Spring Boot and Angular, designing microservice architectures for the consumer-credit industry.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230b0e14%22/><text x=%2250%22 y=%2266%22 font-family=%22Arial%2C sans-serif%22 font-size=%2252%22 font-weight=%22700%22 fill=%22%235eead4%22 text-anchor=%22middle%22>DA</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-glow" aria-hidden="true"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">DA</span>
+      Dario G. Anzalone
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#cv">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle light / dark theme" aria-pressed="false">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </button>
+      <button class="icon-btn menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <header class="hero">
+    <div class="container hero-inner">
+      <div>
+        <span class="eyebrow"><span class="dot"></span> Available for new opportunities</span>
+        <h1>Hi, I'm Dario —<br><span class="grad">I build full stack platforms</span> that scale.</h1>
+        <p class="hero-role">I'm a <span id="typedRole">Full Stack Developer</span><span class="cursor"></span></p>
+        <p class="hero-desc">
+          Based in Catania, Italy, I design microservice architectures and build them end-to-end in
+          Java / Spring Boot and Angular for the consumer-credit industry — from API surveying and
+          C4 modeling to CI/CD release.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#cv">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download CV
+          </a>
+          <a class="btn btn-ghost" href="#contact">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg>
+            Get in Touch
+          </a>
+        </div>
+        <div class="hero-meta">
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Catania, Italy
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            IT Consultant @ Blue Reply
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            M.Eng. Computer Engineering
+          </span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orb"></div>
+        <div class="monogram"><span>DA</span></div>
+        <div class="hero-tag t1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          Java · Spring Boot
+        </div>
+        <div class="hero-tag t2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 4.9V17L12 22l-9-5.1V6.9z"/></svg>
+          Angular
+        </div>
+        <div class="hero-tag t3">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg>
+          Microservices
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-kicker">About</p>
+        <h2 class="section-title">A bit about how I work</h2>
+        <p class="section-sub">Full stack development with an architect's eye for the bigger picture.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a Full Stack Developer with three years of experience at Blue Reply, building
+            mission-critical digital platforms for the consumer-credit industry. My role has grown
+            from end-to-end feature delivery into owning the architecture itself: surveying and
+            reorganizing hundreds of APIs by domain, modeling systems with C4 diagrams and sequence
+            diagrams, and designing the integrations that connect them to external systems.
+          </p>
+          <p>
+            I implement what I design end-to-end — in Java (Spring Boot, Quarkus, Apache Camel) on
+            the back end and Angular on the front end — through testing and into CI/CD release. Along
+            the way I've worked hands-on with API management (WSO2, 3scale), performance optimization
+            through caching, event-driven systems with Kafka, and more recently GenAI/OCR solutions
+            for document anti-fraud.
+          </p>
+          <p>
+            I hold a Master's degree in Computer Engineering from the University of Catania (110/110
+            cum laude), and I stay curious about new technologies — GenAI included — always looking
+            for the next interesting technical challenge.
+          </p>
+        </div>
+
+        <div class="stat-grid reveal">
+          <div class="stat-card">
+            <div class="stat-num">3+</div>
+            <div class="stat-label">Years of professional experience</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">220+</div>
+            <div class="stat-label">REST endpoints surveyed &amp; remapped</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">37</div>
+            <div class="stat-label">Domain-driven microservices designed</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">110/110</div>
+            <div class="stat-label">M.Eng. Computer Engineering, cum laude</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-kicker">Experience</p>
+        <h2 class="section-title">Current role</h2>
+        <p class="section-sub">What I'm working on right now.</p>
+      </div>
+
+      <div class="role-card reveal">
+        <div class="role-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        </div>
+        <div>
+          <div class="role-head">
+            <h3>IT Consultant · Full Stack Developer — Blue Reply S.r.l.</h3>
+            <span class="role-current">Sep 2023 – Present</span>
+          </div>
+          <p class="role-sub">Milan, Italy (remote from Catania) · Consumer-credit &amp; mobility industry</p>
+          <p class="role-desc">
+            Full stack development of web platforms and microservices for leading Italian
+            consumer-credit institutions — including Agos, Findomestic, Fiditalia and Drivalia — in
+            Agile/Scrum teams with CI/CD on GitLab and Jenkins.
+          </p>
+          <ul class="role-points">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Re-engineered a customer self-service platform's architecture into 37 domain-driven microservices, formalized in 6 C4 diagrams and 40+ sequence diagrams.
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Designed integrations with 10 external systems and vendors using an adapter-chain pattern with centralized authentication.
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Built a version-based caching system that cut API gateway and database load on a high-traffic content delivery service.
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Designed and built a document anti-fraud REST service with OCR, MRZ parsing and a GenAI-assisted data-extraction web app.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-kicker">Skills</p>
+        <h2 class="section-title">Technologies I work with</h2>
+        <p class="section-sub">From API design to production release.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>
+            <h4>Languages</h4>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Java 8–17</span><span class="tag">TypeScript</span><span class="tag">JavaScript</span><span class="tag">SQL</span><span class="tag">Python</span><span class="tag">Dart</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 8v13H4V8"/><path d="M2 3h20l-2 5H4z"/><path d="M10 12h4"/></svg></span>
+            <h4>Backend</h4>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Spring Boot 2/3</span><span class="tag">Quarkus</span><span class="tag">MicroProfile</span><span class="tag">Apache Camel</span><span class="tag">REST &amp; SOAP</span><span class="tag">OpenAPI</span><span class="tag">OAuth2</span><span class="tag">JPA / Hibernate</span><span class="tag">MyBatis</span><span class="tag">Kafka</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></span>
+            <h4>Frontend</h4>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Angular 14–18</span><span class="tag">NgRx</span><span class="tag">RxJS</span><span class="tag">HTML5</span><span class="tag">CSS3 / SCSS</span><span class="tag">Bootstrap</span><span class="tag">Flutter</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg></span>
+            <h4>Architecture</h4>
+          </div>
+          <div class="tag-row">
+            <span class="tag">C4 Modeling</span><span class="tag">Domain-Driven Design</span><span class="tag">BFF Pattern</span><span class="tag">Adapter Chain</span><span class="tag">Hexagonal Architecture</span><span class="tag">Event-Driven Design</span><span class="tag">WSO2 API Manager</span><span class="tag">Red Hat 3scale</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span>
+            <h4>DevOps &amp; Tooling</h4>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Git</span><span class="tag">GitLab CI/CD</span><span class="tag">Jenkins</span><span class="tag">Docker</span><span class="tag">Maven / Gradle</span><span class="tag">Prometheus</span><span class="tag">Jira</span><span class="tag">Confluence</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
+            <h4>Testing</h4>
+          </div>
+          <div class="tag-row">
+            <span class="tag">JUnit</span><span class="tag">Jest</span><span class="tag">JMeter</span><span class="tag">Postman</span><span class="tag">SoapUI</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4v1a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z"/><path d="M6 12h12M6 12a4 4 0 0 0-4 4v1a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-1a4 4 0 0 0-4-4"/></svg></span>
+            <h4>AI &amp; Document Intelligence</h4>
+          </div>
+          <div class="tag-row">
+            <span class="tag">OpenAI SDK / LLMs</span><span class="tag">OCR (Tesseract, vision models)</span><span class="tag">MRZ Parsing (ICAO 9303)</span><span class="tag">Document Forensics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-kicker">Projects</p>
+        <h2 class="section-title">A few things I've built</h2>
+        <p class="section-sub">Selected repositories — see everything on GitHub.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <h4>estrazione_dati_documenti_angular</h4>
+            <a class="project-link" href="https://github.com/oirad360/estrazione_dati_documenti_angular" target="_blank" rel="noopener" aria-label="Open repository on GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">Angular + GenAI web app for LLM-assisted data extraction from identity documents, with structured JSON/Markdown output.</p>
+          <span class="project-lang"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <h4>nutrition_calculator_flutter</h4>
+            <a class="project-link" href="https://github.com/oirad360/nutrition_calculator_flutter" target="_blank" rel="noopener" aria-label="Open repository on GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">A nutrition calculator mobile app built with Flutter, used to explore cross-platform mobile development.</p>
+          <span class="project-lang"><span class="lang-dot" style="background:#00B4AB"></span>Dart</span>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <h4>unict-testingpipelines</h4>
+            <a class="project-link" href="https://github.com/oirad360/unict-testingpipelines" target="_blank" rel="noopener" aria-label="Open repository on GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">JMeter testing pipeline built for my Master's thesis at the University of Catania, on isolated and reproducible DevOps testing.</p>
+          <span class="project-lang"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <h4>layout-creator</h4>
+            <a class="project-link" href="https://github.com/oirad360/layout-creator" target="_blank" rel="noopener" aria-label="Open repository on GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">A web layout builder tool, developed as my Bachelor's thesis project at the University of Catania.</p>
+          <span class="project-lang"><span class="lang-dot" style="background:#4F5D95"></span>PHP</span>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <h4>eCommerce.js</h4>
+            <a class="project-link" href="https://github.com/oirad360/eCommerce.js" target="_blank" rel="noopener" aria-label="Open repository on GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">A React rebuild of my Bachelor's thesis e-commerce website, revisiting the original project with a modern front end.</p>
+          <span class="project-lang"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <h4>unictest</h4>
+            <a class="project-link" href="https://github.com/oirad360/unictest" target="_blank" rel="noopener" aria-label="Open repository on GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">A Java project from my academic coursework at the University of Catania.</p>
+          <span class="project-lang"><span class="lang-dot" style="background:#b07219"></span>Java</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CV ================= -->
+  <section class="section" id="cv">
+    <div class="container">
+      <div class="cv-card reveal">
+        <div>
+          <h3>Want the full picture?</h3>
+          <p>Download my resume in English or Italian — full work history, technical skills and education.</p>
+        </div>
+        <div class="cv-buttons">
+          <a class="btn btn-primary" href="Anzalone_Dario_CV_ENG.pdf" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            CV — English
+          </a>
+          <a class="btn btn-ghost" href="Anzalone_Dario_CV_ITA.pdf" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            CV — Italiano
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-kicker">Contact</p>
+        <h2 class="section-title">Let's talk</h2>
+        <p class="section-sub">Open to new opportunities — feel free to reach out.</p>
+      </div>
+
+      <div class="contact-wrap">
+        <a class="contact-card reveal" href="mailto:darioanzalone21@gmail.com">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg>
+          </span>
+          <span>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">darioanzalone21@gmail.com</div>
+          </span>
+        </a>
+
+        <a class="contact-card reveal" href="https://www.linkedin.com/in/dario-giuseppe-anzalone-074508268/" target="_blank" rel="noopener">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </span>
+          <span>
+            <div class="contact-label">LinkedIn</div>
+            <div class="contact-value">dario-giuseppe-anzalone</div>
+          </span>
+        </a>
+
+        <a class="contact-card reveal" href="https://github.com/oirad360" target="_blank" rel="noopener">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+          </span>
+          <span>
+            <div class="contact-label">GitHub</div>
+            <div class="contact-value">github.com/oirad360</div>
+          </span>
+        </a>
+
+        <a class="contact-card reveal" href="#top">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </span>
+          <span>
+            <div class="contact-label">Based in</div>
+            <div class="contact-value">Catania, Italy</div>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <span>&copy; <span id="year">2026</span> Dario Giuseppe Anzalone. Built with vanilla HTML, CSS &amp; JS.</span>
+    <span class="footer-social">
+      <a class="icon-btn" href="https://github.com/oirad360" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+      </a>
+      <a class="icon-btn" href="https://www.linkedin.com/in/dario-giuseppe-anzalone-074508268/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+      <a class="icon-btn" href="mailto:darioanzalone21@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg>
+      </a>
+    </span>
+  </div>
+</footer>
+
+<button class="to-top" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
