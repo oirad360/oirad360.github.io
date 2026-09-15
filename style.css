@@ -194,9 +194,10 @@ section{ position: relative; }
 }
 .hero-inner{
   display: grid;
-  grid-template-columns: 1.1fr .9fr;
+  grid-template-columns: 1fr;
   gap: 56px;
   align-items: center;
+  max-width: 760px;
 }
 .eyebrow{
   display: inline-flex;
