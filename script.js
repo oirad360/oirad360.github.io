@@ -130,7 +130,7 @@
   /* ---------- typing effect for hero role ---------- */
   var roleEl = document.getElementById("typedRole");
   var roles = [
-    "Full Stack Developer",
+    "Full Stack Engineer",
     "Java & Spring Boot Engineer",
     "Angular Frontend Developer",
     "Microservice Architecture Designer"
